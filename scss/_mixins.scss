@@ -1,0 +1,12 @@
+
+@mixin button { 
+	font-size:36px;
+	background-color: $primary;
+	padding: 1rem;
+	border-radius: 15px;
+	display:inline-block;
+	margin: 3rem 1.5rem;
+	&:hover {
+		background-color: $hover;	
+	}
+}
